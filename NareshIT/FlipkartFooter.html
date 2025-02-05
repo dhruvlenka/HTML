@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title> Flipkart Footer </title>
+    <!-- 
+    Link is used to link in shortcut-icons and css.
+    Linking the file.
+     -->
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <!-- CSS for footer 
+     - dividing content into columns: grid
+     - 
+     -->
+    <style>
+        footer {
+            display: grid;
+            grid-template-columns: 6fr 6fr;
+            background-color: black;
+            color: white;
+            padding: 20px;
+        }
+        .left-panel {
+            display: grid;
+            grid-template-columns: 1.5fr 1.5fr 1.5fr 1.5fr;
+
+        }
+        .right-panel {
+            display: grid;
+            grid-template-columns: 3fr 3fr;
+            border-left: 2px solid salmon;
+            padding-left: 20px;
+        }
+        .title {
+            font-weight: bold;
+            margin-bottom: 10px;
+
+        }
+        .title~div {
+            margin-bottom: 5px;
+        }
+        header {
+            background-color: black;
+            color: white;
+            padding: 10px;
+            font-size: 20px;
+            display: flex;
+            justify-content: space-between;
+            font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        
+        }
+        section {
+            height: 400px;
+            display: grid;
+            grid-template-columns: 3fr 6fr 3fr;
+
+        }
+        .header-left {
+            font-size: 28px;
+            font-weight: bold;
+        }
+        .header- center span {
+            margin-right: 25px;
+             
+        }
+        .header-center span:hover {
+            background-color: yellow;
+            color: red;
+        }
+        .header-right span {
+            margin-right: 25px;
+        }
+        .header-right span:hover {
+            background-color: yellow;
+            color: red;
+        }
+        nav div {
+            background-color: black;
+            color: white;
+            font-size: 18px;
+            margin-bottom: 20px;
+            padding: 10px;
+            width: 150px;
+            border-radius: 20px;
+        } 
+        nav div:hover{
+            background-color: yellow;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <!-- header  -->
+    <header>
+        <!-- Division for banner-->
+        <div class="header-left ">
+            <span> Shopper </span>
+        </div>
+        <!-- Division for menu -->
+         <div class="header-center">
+             <span> Home </span>
+             <span> Shop </span>
+             <span> Catalog </span>
+             <span> Blog </span>
+             <span> Pages </span>
+             <span> Docs </span>
+         </div>
+        <!-- Division for icons -->
+         <div class="header-right">
+            <span class="bi bi-search"> </span>
+            <span class="bi bi-person"> </span>
+            <span class="bi bi-heart"> </span>
+            <span class="bi bi-cart"> </span>
+         </div>
+    </header>
+
+    <!-- works like margin-->
+    <section>
+        <!-- navigation -->
+         <nav>
+            <div> Home </div>
+            <div> About </div>
+            <div> Contact </div>
+            <div> Shop</div>
+         </nav>
+         <main>
+            Welcome to Shopper
+         </main>
+         <aside>
+             Ads
+         </aside>
+    </section>
+    
+    
+    <!-- Creating footer like flipkart -->
+    <footer>
+        <!-- Division 1-->
+         <div class="left-panel">
+            <!-- Sub Division 1-->
+             <div>
+                <!-- putting some content -->
+                 <div class="title"> About </div>
+                 <div> Contact Us </div>
+                 <div> About us </div>
+                 <div> Carrers </div>
+                 <div> Flipkart Stories </div>
+                 <div> Press </div>
+                 <div> Corporate Information </div>
+             </div>
+             <!-- Sub diviosn 2 -->
+              <div>
+                <div class="title"> Group Companies </div>
+                <div> Myntra </div>
+                <div> ClearTrip </div>
+                <div> Shopsy</div>
+
+              </div>
+              <!-- Sub divisio 3 -->
+               <div>
+                <div class="title"> Help </div>
+                <div> Payments </div>
+                <div> Shipping </div>
+                <div> Cancellation & Returns </div>
+                <div> FAQ </div>
+                <div> Report Infrigment </div>
+               </div>
+
+               <!-- Sub divison 4 -->
+                <div>
+                    <div class="title"> Consumer Policy </div>
+                    <div> Cancellation & Returns </div>
+                    <div> Terms of Use </div>
+                    <div> Security </div>
+                    <div> Privacy </div>
+                    <div> Sitemap </div>
+                    <div> Grievance Redressal </div>
+                    <div> EPR Compilance </div>
+                </div>
+         </div>
+
+        <!-- Divison 2-->
+         <div class="right-panel">
+            <!-- Sub division 1 -->
+             <div>
+                <div class="title"> Mail us </div>
+                <div> Flipkart Internet Private Limited, Buildings Alyssa, Begonia & Clove Embassy Tech Village,
+                    Outer Ring Road, Devarabeesanahalli Village, Bengaluru, 560103,
+                    Karnataka, India</div>
+
+             </div>
+             <!-- Sub division 2 -->
+              <div>
+                <div class="title"> Registered Office Address </div>
+                <div> Flipkart Internet Private Limited, Buildings Alyssa, Begonia & Clove Embassy Tech Village,
+                    Outer Ring Road, Devarabeesanahalli Village, Bengaluru, 560103,
+                    Karnataka, India
+                    CIN : U51109KA2012PTC066107
+                    Telephone: 044-45614700 / 044-67415800</div>
+
+              </div>
+         </div>
+
+    </footer>
+</body>
+</html>

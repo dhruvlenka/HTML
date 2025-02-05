@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        var {
+            color: gray;
+        }
+        code {
+            color: red;
+        }
+        samp {
+            color: blue;
+        }
+        article {
+            background-color: yellow;
+            width: 200px;
+            height: 25px;
+            padding: 10px;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- 
+    Browser transforms the presentation: it means if you write some paragraphs in body no matter you write something
+    in new line when you live the server (webpage) they will in one line if you didn't use any tags (entities).
+
+    <br> break
+    &nbsp; blank spaces
+    &lt: less than
+    &gt: greater than
+    -->
+    H &nbsp;&nbsp; T &nbsp;&nbsp; M&nbsp;&nbsp; L 
+    <div> HTML </div>
+    <div>
+        #include &lt;stdio.h&gt; <br>
+        main() { <br>
+            printf("C Programming")
+        }
+    </div>
+
+    <!-- pre: can present the content with the spaces and line breaks exactly how you
+         mentioned in the code.
+    -->
+    <h4> Pre </h4>
+    <pre>
+    public static void main(String[] agrs){
+        System.out.println("Java main program.")
+    }
+    </pre>
+    <br>
+    
+    <!-- code: a tag in which we write some variables and assign some values like other programming language: java.-->
+    <!-- samp: used for comments-->
+     <h4> Code </h4>
+     <samp> A program to add 2 numbers. </samp>
+     <code>
+        <var> x </var> = 10;
+        <var> y </var> = 20;
+        <var> z </var> = <var> x </var> + <var> y </var>;
+     </code>
+     <br>
+
+     <!-- Dialog -->
+     <h4> Dialog </h4>
+     <dialog open> Any Help? </dialog>
+    <br>
+    <hr>
+
+    <!-- Article -->
+    <h2> Article </h2>
+    <article>  I am learning HTML. </article>
+    <br> 
+
+    <!-- Marquee -->
+    <h3> Marquee Animation </h3>
+    <article> <marquee>   It is a markup language. </marquee> </article>
+    <br>
+
+    <!-- Address -->
+     <h4> Address SEO optimized. </h4>
+     <address>
+        <pre>
+            Flipkart Internet Private Limited,
+            Buildings Alyssa, Begonia &
+            Clove Embassy Tech Village,
+            Outer Ring Road, Devarabeesanahalli Village,
+            Bengaluru, 560103,
+            Karnataka, India
+
+            CIN : U51109KA2012PTC066107
+            Social:
+            Telephone: 044-45614700 / 044-67415800
+        </pre>
+     </address>
+
+     <!-- figure and figure caption -->
+      <h4> Figure and Figcaption </h4>
+      <figure> 
+        <img src="../HTMLW3Schools/ApplePark.jpg" width="300px" height="300px">
+        <figcaption>Apple Park</figcaption>
+      </figure>
+</body>
+</html>

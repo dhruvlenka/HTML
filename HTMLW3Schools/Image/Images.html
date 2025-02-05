@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            figcaption {
+                font-size: 20px;
+                font-family:Georgia, 'Times New Roman', Times, serif;
+                font-style: italic;
+                font-weight: bold;
+                line-height: 30px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Image to HTML </h1>
+        <p style="font-size: 20px; font-weight: bold; color: blue;"> * Importing Image to HTML.</p>
+
+        <!-- Importing the image from another folder -->
+         <!-- Using "title: it defines the screen tip to display when mouse pointer is over image." -->
+        <img class = "img-porsche" src = "porsche.JPG" 
+        alt = "Porsche 911 GT3 RS" height="300px" width="300px" border="20">
+        
+        <!-- Importing the image from safe file without style attribute -->
+        <img src="LithXLogo.jpg" alt="LithX Logo" height="300px" width="300px" align="right" hspace="20", vspace="20">
+        <figcaption> LithX </figcaption>
+
+        <!-- Using the style attribute to fix the height and width of the image. -->
+        <img src="ApplePark.jpg" alt="Apple Park" style="height: 300px; width: 300px;">
+        <figcaption> Apple Park </figcaption>
+        <br>
+
+        <!-- Image on Another Website/Server -->
+         <img src="https://dhruvlenka.com/wp-content/uploads/2024/08/Untitled-design.png" 
+              alt="dhruvlenka.com" height="300px" width="300px">
+              <figcaption> dhruv </figcaption>
+
+        <!-- GIF: Animated Images  -->
+         <img src="../bat.gif" alt="batman" height="250px" width="350px">
+         <figcaption> batman gif</figcaption>
+
+         <!-- Image as a Link -->
+         <a href="default.asp">
+            <img src="ApplePark.jpg" alt="HTML tutorial" style="width:250px;height:300px;">
+          </a> 
+          <figcaption> image as link</figcaption>
+
+          <!-- Floting Image-->
+           <h1> Floating Image</h1>
+           <p>
+            <img src="ApplePark.jpg" alt="batman" style="float: right; width: 100px; height: 100px;">
+           </p>
+           <p>
+            <img src="ApplePark.jpg" alt="batman" style="float: left; width: 100px; height: 100px;">
+           </p>
+    </body>
+</html>

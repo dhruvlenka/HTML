@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        form {
+            background-color: cornflowerblue;
+            padding: 20px;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <h3> College Registration Form </h3>
+        Name <input type="text" name="student-name" placeholder="Enter Your Name" autofocus> <br> <br>
+        <!-- sup: required, value is mandatory -->
+         \
+        Email<sup> * </sup> <input type="email" name="student-email" placeholder="Email"> <br> <br>
+        Mobile<sup> * </sup><input type="tel" name="student-mobile" placeholder="Mobile"> <br> <br>
+        <!-- disabled: value cannot be changed -->
+
+        College Name <input type="text" value="LNCT University" placeholder="College Name"> <br> <br>
+        Branch Name <input type="text" value="Computer Science Engineering" placeholder="Branch Name"> <br> <br>
+        Password<sup> * </sup><input type="password" name="student-password" placeholder="password"required> <br> <br>
+
+        <!-- readonly: user can read only can't change but can access the text-field-->
+        Principle Name <input type="text" value="Shambhoo Kumar" name="principle-name" readonly> <br><br>
+
+        <button type="submit"> Submit </button>
+        <button type="reset"> Cancel </button>
+    </form>
+</body>
+</html>

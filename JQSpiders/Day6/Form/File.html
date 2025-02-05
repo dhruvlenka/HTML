@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File </title>
+</head>
+<body>
+    <form action="#">
+        <h3> Printable Document Format (PDF) </h3>
+        <!-- 
+        type = "file" it will take a file
+        accept = will choose which type of file we
+                 want to upload like .pdf or images.
+        -->
+        Upload your Aadhar Card
+        <br>
+        <input type="file" accept=".pdf"> 
+
+
+        <h3> Multiple PDF File Select and Upload</h3>
+        Choose Files to Upload 
+        <br> 
+        <input type="file" multiple accept=".pdf">
+
+        <!--
+        action: ".fileforamt" depends on our need
+        like we want user should upload a 
+        jpeg: then only jpeg will be selectable
+        heic: then heic format will be selectable
+        png: then png format will be selectable
+        -->
+        <h3> Images </h3>
+        Upload your Image <br> 
+        <input type="file" accept=".jpeg"> <br> <br>
+        
+
+    </form>
+</body>
+</html>

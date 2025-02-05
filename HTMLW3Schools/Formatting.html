@@ -1,0 +1,143 @@
+<!Doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+        <style>
+            h1 {
+                text-align: center;
+                justify-content: center;
+                margin-bottom: 5px;
+            }
+        </style>
+    </head>
+     <!--
+    HTML contains several elements for defining text with a special meaning.
+        <i> - Italic text
+        <b> - Bold text
+        <u> - undeline text
+        <strong> - Important text
+        <em> - Emphasized text
+        <mark> - Marked text
+        <small> - Smaller text
+        <del> - Deleted text
+        <ins> - Inserted text
+        <sub> - Subscript text
+        <sup> - Superscript text
+        <code> Code text
+        <address> : for address of user and author
+        <quote> : for short quote
+        <blockquote> : for long quote
+        <br> - used for line breaks
+        <abbr> : abbrevation
+
+       -->
+      
+    <body>
+        <h1> HTML Formatting Texts</h1>
+        <p style="text-align: center;"> Formatting elements were designed to display special types of text:</p>
+
+        <!-- 
+        HTML <b> : bold 
+        <strong> : element defines text with strong importance. The content inside is typically displayed in bold.
+        -->
+            <h3 style="margin-bottom: -5px;"> Bold </h3>
+            <b> Learning Formatting (bold). </b>
+            <br>
+            <h3 style="margin-bottom: -5px;"> Strong </h3>
+            <strong> This text is Important (strong). </strong>
+            <hr>
+
+        <!-- 
+            HTML <i> : italic and 
+            <em> : element defines emphasized text. The content inside is typically displayed in italic.
+        -->
+            <h3 style="margin-bottom: -5px;"> Italic </h3>
+            <i> This line is in Itali. </i>
+            <br> 
+            <h3 style="margin-bottom: -5px;"> Emphasized </h3>
+            <em> This text is emphasized. </em>
+            <br>
+            <h3 style="margin-bottom: -5px;"> Undeline </h3>
+            <u> This text is underlined. </u>
+            <br>
+
+        <!--
+        <small> : element defines smaller text.
+        <mark   : element defines text that should be marked or highlighted.
+        <del>   : element defines text that has been deleted from a document. Browsers will usually strike a line
+               through deleted text.
+        <ins>   : element defines a text that has been inserted into a document. Browsers will usually underline
+                inserted text.
+        -->
+                <h3 style="margin-bottom: -5px;"> Small </h3>
+                <small> This text is small. </small>
+
+                <h3 style="margin-bottom: -5px;"> Mark </h3>
+                <p> Don't forget to buy <mark> Milk </mark> today. </p>
+
+                <h3 style="margin-bottom: -5px;"> Delete </h3>
+                <p> My favorite color is <del> blue </del> because sky is blue, ocena is blue.</p>
+
+                <h3 style="margin-bottom: -5px;"> Insert </h3>
+                <p>My favourite actor is <del> Hrithik Raushan </del> <ins> Tom Cruis </ins> . </p>
+                <br>
+
+        <!-- 
+        <sub> : element defines subscript text. Subscript text appears half a character below the normal line,
+                and is sometimes rendered in a smaller font. Subscript text can be used for chemical formulas,
+                like H2O:
+
+        <sup> : element defines superscript text. Superscript text appears half a character above the normal
+                line, and is sometimes rendered in a smaller font. Superscript text can be used for footnotes, 
+                like WWW[1]:
+        -->
+                <h3 style="margin-bottom: -5px;"> Subscript </h3>
+                <p> Water formula H <sub> 2 </sub> O. (Subscript) </p>
+
+                <h3 style="margin-bottom: -5px;"> Superscript </h3>
+                <p> (a+b) <sup> 2 </sup> = a <sup> 2 </sup> + b <sup> 2 </sup> </p> 
+
+        <!-- code -->
+        <h3 style="margin-bottom: -5px;"> Code </h3>
+         <code> 
+             public class Hello(){
+                public static void main(String[] args){
+                    System.out.println("Hello World!");
+                }
+             }
+         </code>
+
+         <!-- 
+         address: 
+         The <address> tag is used to provide contact information for the author or owner of a document.
+         -->
+        <h3 style="margin-bottom: -5px;"> Address </h3>
+        <address style="color: blue;"> Falna Tikana, Post: Falna, Distt: Tikana, 340101</address>
+
+        <!-- Quote
+        - <q> tag is used for shorter quotes i.e, for single line quotation.
+        - The text between <q> ..text.. </q> tag is displayed as quotation(text will be in double quotes)
+          -->
+
+        <h3 style="margin-bottom: 5px;"> Quote </h3>
+        <q> You are the one who can change the world, but in first you have to change youself.</q>
+
+         <!-- Block Quote
+           - The <blockquote> tag is used for longer quotes i.e, multi line quotation.
+           - The text between <blockquote> ..text.. </blockquote> tag is The blockquote
+             is usually indented and styled differently from the surrounding text.
+          -->
+          <h3 style="margin-bottom: -5px;"> Block Quote </h3>
+          <blockquote> Do not be scared to say "I love you" to yourself. Stand in front of the mirror and look at yourself and say to yourself as loudly as you can, "I love you. I respect you for what you have faced in life. And I love you for what you have become." </blockquote>
+
+          <!-- Abbrevation 
+           - The text between <abbr> ..text.. </abbr> tag is used for mark up the term for abbreviation 
+             and we can provide the expansion of the term by using title attribute of <abbr> tag
+           -->
+           <h3 style="margin-bottom: -5px;"> Abbrevation </h3>
+           <abbr title="World Health Organization"> WHO </abbr> 
+
+
+           <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, architecto. </p>
+    </body>
+</html> 
